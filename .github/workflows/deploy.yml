@@ -27,5 +27,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          source: "./out"
-          target: "~/app/nginx/www/html/main"
+          source: out/*
+          target: ~/app/nginx/www/html/main
