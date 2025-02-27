@@ -27,5 +27,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
+          strip_components: 1
           source: out/
           target: ~/app/nginx/www/html/main
