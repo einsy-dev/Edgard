@@ -1,8 +1,5 @@
 name: Deploy app to server
 
-env:
-  PATH: app/master/nginx/www/html/main
-
 on:
   push:
     branches: ["release"]
@@ -31,4 +28,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           source: out/*
-          target: "${{ env.PATH }}"
+          target: app/master/nginx/www/html/main
