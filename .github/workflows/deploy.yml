@@ -1,4 +1,4 @@
-name: Deploy master to server
+name: Deploy app to server
 
 env:
   PATH: app/master/nginx/www/html/main
