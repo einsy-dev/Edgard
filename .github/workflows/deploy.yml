@@ -28,4 +28,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           source: out/*
-          target: app/master/nginx/www/html/main
+          target: app/nginx/www/html/main
