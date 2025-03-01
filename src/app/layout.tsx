@@ -1,6 +1,7 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { Lora } from "next/font/google";
+import facvicon from "./favicon.ico";
 import "./globals.css";
 
 const lora = Lora({
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
   generator: "Next.js, TailwindCSS, Typescript, React",
   manifest: "/manifest.json",
   icons: {
-    icon: "/favicon.ico"
+    icon: facvicon.src
   }
 };
 
