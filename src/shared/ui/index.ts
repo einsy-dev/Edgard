@@ -1,1 +1,1 @@
-export { default as Tag } from './Tag/Tag';
+export { default as Card } from './Card/Card';
