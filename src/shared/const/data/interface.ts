@@ -1,7 +1,5 @@
-import { StaticImageData } from "next/image";
-
 interface DataI {
-  img: StaticImageData;
+  img: string;
   title: string;
   description: string;
   link: string;
